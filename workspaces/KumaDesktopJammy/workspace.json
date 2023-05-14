@@ -2,7 +2,7 @@
   "friendly_name": "KumaLabs Ubuntu Jammy",
   "image_src": "blob:https://kumalabsconsulting.github.io/641094a7-1f84-49f7-b542-3befed372d63",
   "description": null,
-  "name": "redbeard28/kasm-jammy-workspace",
+  "name": "redbeard28/kasm-jammy-workspace:0.0.1",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
