@@ -1,7 +1,7 @@
 {
   "friendly_name": "KumaLabs Ubuntu Jammy",
   "image_src": "jcu_icon_transparent_background.png",
-  "description": "Mon premier Desktop pour Kasm",
+  "description": "Mon premier Desktop pour Kasm sous ubuntu jammy",
   "name": "redbeard28/kasm-jammy-workspace:0.0.1",
   "cores": 2,
   "memory": 2768,
