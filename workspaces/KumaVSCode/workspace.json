@@ -1,15 +1,16 @@
 {
-  "friendly_name": "KumaLabs WebTOP Ubuntu Jammy",
+  "friendly_name": "KumaLabs VSCode Containerized",
   "image_src": "jcu_icon_transparent_background.png",
-  "description": "WebTOP Desktop pour Kasm sous ubuntu jammy",
-  "name": "redbeard28/mywebtop-ubuntu-mate:0.0.1",
+  "description": "Vscode with some extensions",
+  "name": "redbeard28/kasm-vscode-workspace:0.0.1",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://index.docker.io/v1/",
   "categories": [
-    "Desktop"
+    "Desktop",
+    "Development"
   ],
   "require_gpu": false,
   "enabled": true,
