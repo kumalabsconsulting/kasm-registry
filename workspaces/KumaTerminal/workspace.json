@@ -2,7 +2,7 @@
   "friendly_name": "KumaLabs Terminal Containerized",
   "image_src": "jcu_icon_transparent_background.png",
   "description": "Terminal with some extensions",
-  "name": "redbeard28/kasm-terminal-workspace:0.0.3",
+  "name": "redbeard28/kasm-terminal-workspace:0.0.1",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,

@@ -1,8 +1,8 @@
 {
-  "friendly_name": "KumaLabs VSCode Containerized",
+  "friendly_name": "KumaLabs Darktable Containerized",
   "image_src": "jcu_icon_transparent_background.png",
-  "description": "Vscode with some extensions",
-  "name": "redbeard28/kasm-vscode-workspace:0.0.3",
+  "description": "Darktable photos editing",
+  "name": "redbeard28/kasm-darktable-workspace:0.0.1",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
@@ -10,7 +10,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "categories": [
     "Desktop",
-    "Development"
+    "Multimedia"
   ],
   "require_gpu": false,
   "enabled": true,
