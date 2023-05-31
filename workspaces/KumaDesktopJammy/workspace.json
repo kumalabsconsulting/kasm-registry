@@ -1,36 +1,35 @@
 {
-  "friendly_name": "KumaLabs Ubuntu Jammy",
-  "image_src": "https://raw.githubusercontent.com/kumalabsconsulting/kasm-registry/1.0/workspaces/KumaDesktopJammy/jcu_icon_transparent_background.png",
-  "description": "Mon premier Desktop pour Kasm sous ubuntu jammy",
-  "name": "redbeard28/kasm-jammy-workspace:0.0.4.1",
-  "cores": 2,
-  "memory": 2768,
-  "gpu_count": 0,
-  "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://index.docker.io/v1/",
-  "categories": [
-    "Desktop"
-  ],
-  "persistent_profile_path": "/mnt/profiles/kasm-jammy-workspace/{username}",
-  "volume_mappings": [
-    {
-      "/mnt/profiles/ssh/{username}": {
-        "bind": "/home/kasm-user/.ssh",
-        "mode": "rw",
-        "uid": 1000,
-        "gid": 1000,
-        "required": true,
-        "skip_check": false
-      }
-    }
-  ],
-  "require_gpu": false,
-  "enabled": true,
-  "image_type": "Container",
-  "architecture": [
-    "amd64"
-  ],
-  "compatibility": [
-    "1.13.x"
-  ]
+	"friendly_name": "KumaLabs Ubuntu Jammy",
+	"image_src": "https://raw.githubusercontent.com/kumalabsconsulting/kasm-registry/1.0/workspaces/KumaDesktopJammy/jcu_icon_transparent_background.png",
+	"description": "Mon premier Desktop pour Kasm sous ubuntu jammy",
+	"name": "redbeard28/kasm-jammy-workspace:0.0.4.1",
+	"cores": 2,
+	"memory": 2768,
+	"gpu_count": 0,
+	"cpu_allocation_method": "Inherit",
+	"docker_registry": "https://index.docker.io/v1/",
+	"categories": [
+		"Desktop"
+	],
+	"persistent_profile_path": "/mnt/profiles/kasm-jammy-workspace/{username}",
+	"volume_mappings": {
+		"/mnt/profiles/ssh/{username}": {
+			"bind": "/home/kasm-user/.ssh",
+			"mode": "rw",
+			"uid": 1000,
+			"gid": 1000,
+			"required": true,
+			"skip_check": false
+		}
+	},
+	"docker_run_config_override": { "hostname": "desktop-{username}" },
+	"require_gpu": false,
+	"enabled": true,
+	"image_type": "Container",
+	"architecture": [
+		"amd64"
+	],
+	"compatibility": [
+		"1.13.x"
+	]
 }
